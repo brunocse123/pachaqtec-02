@@ -1,0 +1,138 @@
+/*Globables*/
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1rem;
+  color: black;
+  font-family: "Roboto";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrap {
+  max-width: 1366px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+main{
+    margin: 1% 15% 1% 15%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*Header*/
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header li {
+  margin-left: 10px;
+}
+
+header .logo {
+  font-size: 2rem;
+}
+
+header .menu a {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+}
+
+header .menu a:hover {
+  text-decoration: underline;
+}
+
+.subtittles{
+    padding: 5%, 0%, 1%, 0%;
+    color: #356EAD;
+    font-size: 1.2rem;
+}
+
+/*Banner*/
+.banner {
+  background-image: url("../images/banner.png");
+  padding: 2% 0% 2% 0%;
+}
+
+.banner .subtittle {
+  color: white;
+  text-align: center;
+}
+
+/*Search*/
+.search{
+    background: #F4F4F4;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/*Popular*/
+.popular{
+    background: white;
+}
+
+.popular-footer{
+    padding: 1% 1% 1% 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-footer-img{
+    display: flex;
+    padding: 1% 1% 1% 1%;
+    justify-content: space-between;
+}
+
+.popular-footer-img article{
+    padding: 10%
+}
+
+.post-Principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*All Articles*/
+.all-articles{
+    background: lightsteelblue; 
+}
+
+/*interest*/
+.interest{
+    background: yellow;
+}
