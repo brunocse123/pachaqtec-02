@@ -239,14 +239,24 @@ header .menu a:hover {
     justify-content: space-between;
 }
 
-
-
-/*interest*/
-.interest{
+footer{
     background-color: #316099;
     border-radius: 0px 200px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-right: 5%;*/
+}
 
-    padding: 2%;
+/*interest*/
+.footer-complete{
+    width: auto;
+    max-width: 960px;
+    align-content: center;
+    
+}
+.interest{
+        padding: 2%;
 }
 
 .content-interest{
@@ -262,6 +272,15 @@ header .menu a:hover {
 
 .content-question{
     padding: 25px;
+}
+
+.content-result{
+    padding: 5% 5% 5% 0%;
+}
+
+.content-interest p{
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 .content-button button{
@@ -293,9 +312,6 @@ header .menu a:hover {
 }
 
 .footer{
-    max-width: 100%;  
-    width: 960px;
-    margin: auto;
     background: #316099;
     padding: 4%;
 }
