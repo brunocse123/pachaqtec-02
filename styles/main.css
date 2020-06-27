@@ -37,7 +37,7 @@ h1 {
   font-size: 2rem;
 }
 
-main{
+.wrapper{
     margin: 1% 12% 1% 12%;
 }
 
@@ -146,6 +146,8 @@ header .menu a:hover {
 .popular-footer{
     padding: 1% 1% 1% 1%;
     display: flex;
+    align-content: flex-end;
+    vertical-align: bottom;
     justify-content: space-between;
 }
 
@@ -164,9 +166,18 @@ header .menu a:hover {
     grid-template-columns: 1fr 1fr;
     padding-top: 1%;
     padding-bottom: 2%;
+    grid-gap: 3%;
 }
 
 
+.post-principal-texto{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+
+/*Post Secundary*/
 
 .post-Secondary{
     display: grid;
