@@ -5,11 +5,15 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+input{
+    border-style: none;
+    background-color: transparent;
+}
 
 body {
   font-size: 1rem;
   color: black;
-  font-family: "Roboto";
+  font-family: Helvetica;
 }
 
 ul {
@@ -34,7 +38,7 @@ h1 {
 }
 
 main{
-    margin: 1% 15% 1% 15%;
+    margin: 1% 12% 1% 12%;
 }
 
 img{
@@ -51,7 +55,9 @@ header {
   border-radius: 4px;
 }
 
-
+h2,h3,h4{
+    color: rgb(53,110,173,0.8);
+}
 
 header ul {
   display: flex;
@@ -77,33 +83,64 @@ header .menu a:hover {
   text-decoration: underline;
 }
 
-.subtittles{
-    padding: 5%, 0%, 1%, 0%;
-    color: #356EAD;
-    font-size: 1.2rem;
-}
 
+/*******************************************/
 /*Banner*/
+/******************************************/
 .banner {
   background-image: url("../images/banner.png");
-  padding: 2% 0% 2% 0%;
+  padding: 5% 18% 6% 18%;
 }
 
 .banner .subtittle {
   color: white;
   text-align: center;
+  font-size: 0.7rem;
 }
-
+/*******************************************/
+/*Search*/
+/******************************************/
 /*Search*/
 .search{
     background: #F4F4F4;
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-/*Popular*/
+.search input{
+    padding-left: 1%;
+}
+
+/********************************************/
+/*          Popular                         */
+/********************************************/
 .popular{
     background: white;
+}
+
+.autor{
+    color: #1F3F68;
+}
+
+.popular .subtittles{
+    padding-top: 2%;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+.popular h3{
+    font-size: 1.6rem;    
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+.popular p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,0,0.7);
 }
 
 .popular-footer{
@@ -125,14 +162,49 @@ header .menu a:hover {
 .post-Principal{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+
+
+.post-Secondary{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2%;
+}
+
+.post-Secondary h4{
+    font-size: 1.3rem;
+    color: #356EAD;
+    font-weight: bold;
+    padding-bottom: 2%;
 }
 
 /*All Articles*/
 .all-articles{
     background: lightsteelblue; 
+    margin: 2%;
+    padding: 2%;
 }
 
 /*interest*/
 .interest{
     background: yellow;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+.contact{
+    background: orangered;
+    margin: 2%;
+    padding: 2%;
+}
+
+.footer{
+    background: blanchedalmond;
+    margin: 2%;
+    padding: 2%;
 }
