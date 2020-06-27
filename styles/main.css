@@ -199,8 +199,7 @@ header .menu a:hover {
 
 /*All Articles*/
 .all-articles{
-    margin: 2%;
-    padding: 2%;
+    padding-bottom: 5%;
 }
 .all-articles h5{
     font-size: 1.4rem;
