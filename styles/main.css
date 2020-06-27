@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  
 }
 input{
     border-style: none;
@@ -45,7 +46,9 @@ img{
     max-width: 100%;
 }
 
-/*Header*/
+/******************************/
+/*      Header                */
+/******************************/
 
 header {
   padding: 20px;
@@ -163,7 +166,9 @@ header .menu a:hover {
 
 .post-Principal{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    /*grid-template-columns: 1fr 1fr;*/
     padding-top: 1%;
     padding-bottom: 2%;
     grid-gap: 3%;
